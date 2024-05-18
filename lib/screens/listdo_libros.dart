@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_examen/widget/libros_lista.dart';
 
 class ListadoLibros extends StatelessWidget {
   const ListadoLibros({Key? key}) : super(key: key);
@@ -6,10 +7,8 @@ class ListadoLibros extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Listado de Libros')),
-      body: Center(
-        child: Text('Página de Listado de Libros'),
-      ),
+      appBar: AppBar(title: Text('Libros')),
+      body: LibrosLista(),
     );
   }
 }

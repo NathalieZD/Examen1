@@ -1,6 +1,5 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
-import 'package:flutter_examen/router/main_router.dart'; // Importa el archivo donde definiste tu router
+import 'package:flutter_examen/router/main_router.dart'; 
 
 void main() {
   runApp(MyApp());
